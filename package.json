@@ -1,0 +1,12 @@
+{
+  "name": "mydailystatus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Romulo Lucena Castro",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
