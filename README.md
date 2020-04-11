@@ -3,4 +3,5 @@
 ## Features:
 
 - SSR using Next.js
-- Tailwind CSS
+- Tailwind CSS / PostCSS
+- auth0
