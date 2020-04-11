@@ -5,7 +5,6 @@ const App = ({ Component, pageProps }) => {
   return (
     <div>
       <Component {...pageProps} />
-      <h1>App</h1>
     </div>
   );
 };

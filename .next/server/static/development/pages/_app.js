@@ -132,14 +132,7 @@ const App = ({
       lineNumber: 7,
       columnNumber: 7
     }
-  })), __jsx("h1", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 7
-    }
-  }, "App"));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
