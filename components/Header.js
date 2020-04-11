@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+import NavBar from './NavBar';
 
 // import { Container } from './styles';
 
@@ -14,7 +14,7 @@ const Header = () => {
           height='60'
         />
       </h1>
-      <Navbar />
+      <NavBar />
     </div>
   );
 };

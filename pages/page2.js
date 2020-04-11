@@ -4,7 +4,6 @@ import Header from '../components/Header';
 const Page2 = () => {
   return (
     <div>
-      <Header />
       <h1>Page 2</h1>
     </div>
   );

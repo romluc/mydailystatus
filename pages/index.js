@@ -4,7 +4,7 @@ import Header from '../components/Header';
 const Index = () => {
   return (
     <div>
-      <Header />
+      <h1>home</h1>
     </div>
   );
 };
