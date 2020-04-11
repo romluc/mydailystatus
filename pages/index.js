@@ -1,7 +1,13 @@
 import React from 'react';
 
 const Index = () => {
-  return <h1>Olá!</h1>;
+  return (
+    <div>
+      <h1>
+        <img src='/logo.png' alt='Logo my daily status' height='60' />
+      </h1>
+    </div>
+  );
 };
 
 export default Index;
