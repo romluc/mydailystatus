@@ -2,6 +2,11 @@
   "name": "mydailystatus",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "author": "Romulo Lucena Castro",
   "license": "MIT",
   "dependencies": {
