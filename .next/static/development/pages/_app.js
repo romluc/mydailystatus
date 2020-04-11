@@ -125,7 +125,6 @@ var NavLink = function NavLink(_ref) {
   var href = _ref.href,
       children = _ref.children;
   return __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "container",
     href: href,
     __self: _this,
     __source: {
@@ -134,7 +133,7 @@ var NavLink = function NavLink(_ref) {
       columnNumber: 5
     }
   }, __jsx("a", {
-    className: "p-2 transition duration-200 ease-in-out  hover:text-teal-800",
+    className: "p-4 transition duration-200 ease-in-out  hover:text-teal-800",
     __self: _this,
     __source: {
       fileName: _jsxFileName,

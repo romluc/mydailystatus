@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const NavLink = ({ href, children }) => {
   return (
-    <Link className='container' href={href}>
-      <a className='p-2 transition duration-200 ease-in-out  hover:text-teal-800'>
+    <Link href={href}>
+      <a className='p-4 transition duration-200 ease-in-out  hover:text-teal-800'>
         {children}
       </a>
     </Link>

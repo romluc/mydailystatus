@@ -5,3 +5,5 @@ const callback = async (req, res) => {
     redirectTo: '/app',
   });
 };
+
+export default callback;

@@ -213,7 +213,6 @@ const NavLink = ({
   children
 }) => {
   return __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "container",
     href: href,
     __self: undefined,
     __source: {
@@ -222,7 +221,7 @@ const NavLink = ({
       columnNumber: 5
     }
   }, __jsx("a", {
-    className: "p-2 transition duration-200 ease-in-out  hover:text-teal-800",
+    className: "p-4 transition duration-200 ease-in-out  hover:text-teal-800",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
