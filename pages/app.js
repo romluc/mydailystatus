@@ -14,7 +14,7 @@ const App = (props) => {
   return (
     <div>
       <h1>App</h1>
-      <pre>{JSON.stringify(props)}</pre>
+      <pre>{JSON.stringify(props, null, 2)}</pre>
     </div>
   );
 };
@@ -26,10 +26,8 @@ export async function getServerSideProps({ req, res }) {
   if (session) {
     return {
       props: {
-        user: {
-          isAuth: true,
-          user: session.user,
-        },
+        isAuth: true,
+        user: session.user,
       },
     };
   } else {

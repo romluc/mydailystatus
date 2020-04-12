@@ -5,3 +5,6 @@
 - SSR using Next.js
 - Tailwind CSS / PostCSS
 - auth0
+- axios
+- Google Firebase (Firestore Database)
+- Geolocation w/ GeoFirestore
