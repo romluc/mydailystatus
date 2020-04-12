@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import router from 'next/router';
 import auth0 from '../lib/auth0';
 
 const App = (props) => {
+  useEffect(() => {
+    if (!props.isAuth) {
+      router.push('/');
+    }
+  });
+  if (!props.isAuth) {
+    return null;
+  }
   return (
     <div>
       <h1>App</h1>
@@ -18,6 +27,7 @@ export async function getServerSideProps({ req, res }) {
     return {
       props: {
         user: {
+          isAuth: true,
           user: session.user,
         },
       },
@@ -25,6 +35,7 @@ export async function getServerSideProps({ req, res }) {
   } else {
     return {
       props: {
+        isAuth: false,
         user: {},
       },
     };
