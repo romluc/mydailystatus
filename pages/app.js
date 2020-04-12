@@ -27,9 +27,12 @@ export default App;
 export async function getServerSideProps({ req, res }) {
   const session = await auth0.getSession(req);
   if (session) {
+    const today = new Date();
+    const currentDate =
+      today.getFullYear() + '-' + today.getMonth() + '-' + today.getDate();
     const todaysCheckin = await db
       .collection('markers')
-      .doc('2020-04-10')
+      .doc(currentDate)
       .collection('checks')
       .doc(session.user.sub)
       .get();
