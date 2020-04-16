@@ -4,7 +4,7 @@ import auth0 from '../../lib/auth0';
 
 const saveStatus = async (req, res) => {
   const session = await auth0.getSession(req);
-  console.log(session);
+
   if (session) {
     const data = req.body;
     const today = new Date();
